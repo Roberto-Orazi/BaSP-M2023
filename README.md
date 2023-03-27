@@ -2,7 +2,7 @@
 This repo is made for the Bootcamp from radium rocket Become a software profesional March 2023 
 
 
-## Week-02  
+## [Week-02](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-02)  
 This folder is for the semanal practice number two.
 
 ```

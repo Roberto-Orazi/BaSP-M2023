@@ -2,7 +2,7 @@
 This repo is made for the Bootcamp from radium rocket Become a software profesional March 2023 
 
 
-## Week-02
+## Week-02  
 This folder is for the semanal practice number two.
 
 ```
@@ -20,3 +20,11 @@ It still remaining the css files
 - Has all the activities and schedules of them.
 - Different memberships that any user can register.
 
+### Sections
+
+- [Home](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L72)
+- [Options](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L85)
+- [Registration](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L111)
+- [About](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L168)
+- [Activities](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L176)
+- [Memberships](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L213)

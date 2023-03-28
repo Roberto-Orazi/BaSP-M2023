@@ -28,3 +28,6 @@ It still remaining the css files
 - [About](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L168)
 - [Activities](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L176)
 - [Memberships](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/Week-02/index.html#L213)
+
+## [Week-02](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-03)  
+This folder is for the semanal practice number Three.

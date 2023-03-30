@@ -1,1 +1,149 @@
-body{}
+html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #dde1e9;
+}
+  
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+
+
+  /*HEADER*/
+  header{
+    z-index: 98;
+    background-color: #373867;
+    height: 150px;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: fixed;
+  }
+  header p{
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50vw;
+    margin-top: -23px; 
+    margin-left: -209px;
+   font-weight: bold;
+  }
+
+  li img{
+    width: 25px;
+  }
+  /*ASIDE BAR*/
+  aside{
+    background-color: #F6F6F6;
+    width: 335px;
+    position: fixed;
+    margin-top: 150px;
+    height: 100vh;
+    
+  }
+ 
+  ul li img{
+    margin-left: 20px;
+   
+  }
+  ul li button{
+    background-color: #AACE9B;
+    border: none;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  ul li button:hover{cursor: pointer;}
+  ul li button p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  .info-aside{
+    margin-top: 200px;
+    width: 330px;
+    margin-left: 20px;
+    position: relative;
+  }
+  aside h3{
+    margin-left: 65px;
+  }
+ul{
+    list-style-type:none;
+}
+    ul li img{
+        margin-top: 30px;
+    }
+  
+  ul li a{
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    font-weight:bold;
+    width: 230px;
+    
+  
+}
+
+
+
+  /*CONTENIDO*/
+  .not-static{
+    margin: 0 150px;
+    position: absolute;
+    left: 335px;
+    top: 150px;
+  }
+
+
+
+  /*FOOTER*/
+  ul li a img{
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30px;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+.footer-redes{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+}
+.footer-copyright{
+    
+
+}
+/*LOGO*/
+.logo-img{
+    position: fixed;
+    bottom: 20px;
+    right: 35px; 
+}

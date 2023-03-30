@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@200;300;400;500&family=Montserrat:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Week 02
+        Week 03
     </title>
 </head>
 <body>
@@ -20,29 +21,29 @@
             <li>
                 <img src="./assets/images/house-icon.svg" alt="house"/> 
                 <button type="button">
-                    Home
+                    <p>Home</p>
                 </button>
             </li>
             <li>
                 <img src="./assets/images/plus-icon.svg" alt="plus"/>
                 <button type="button">
-                    Sign up
+                    <p>Sign up</p>
                 </button>
             </li>
             <li>
                 <img src="./assets/images/user-group-icon.svg" alt="user group"/>
                 <button type="button">
-                    Sign in
+                    <p> Sign in</p>
                 </button>
             </li>
             <li>
                 <img src="./assets/images/box-icon.svg" alt="inbox"/> 
                 <button type="button">
-                    Contact
+                    <p>Contact</p>
                 </button>
             </li>
         </ul>
-
+        <div class="info-aside">
         <h3>
             Information
         </h3>
@@ -69,7 +70,9 @@
                     </a>
                 </li>     
             </ul>
+        </div>
         </aside>
+        <section class="not-static">
 <section class="section-Home" id="home">
     <h1>
         Hi, and welcome to Mega Rocket SA Gym
@@ -86,27 +89,31 @@
 <section class="section-Options" id="options">
     <div>
         <img src="./assets/images/image-calendar-01.png" alt="calendar"/>
-        <h3>
+        <h5>
             Appointment booking
-        </h3>
+        </h5>
+        <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
         <img src="./assets/images/image-calendar-02.png" alt="calendar"/>
-        <h3>
+        <h5>
             Calendar and opening hours
-        </h3>
+        </h5>
+        <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
         <img src="./assets/images/image-cards-01.png" alt="cards"/>
-        <h3 >
+        <h5 >
             Management and membership
-        </h3>
+        </h5>
+        <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
         <img src="./assets/images/image-form-01.png" alt="form"/>
-        <h3 >
+        <h5 >
             Contact form and suggestions
-        </h3>
+        </h5>
+        <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
 </section>
 <section class="section-Registration" id="registration">
@@ -133,36 +140,33 @@
         <input type="text" name="email" placeholder="" required/>
     </div>
     <div>
-    <input type="checkbox">
+    <input type="radio" name="radio" id="members">
     <h5>
         I want to know memberships and costs
     </h5>
     </div>
     <div>
-        <input type="checkbox">
+        <input type="radio" name="radio" id="sugg">
         <h5>
             I want to make a question or suggestion
         </h5>
         </div>
         <div>
-            <input type="checkbox">
+            <input type="radio" name="radio" id="claim">
             <h5>
                 I want to make a claim
             </h5>
         </div>
         <div>
             <h4>
-                Comentarios
+                Comments
             </h4>
             <textarea></textarea>
         </div>
         <button type="button">
             Send
         </button>
-        <button type="button">
-            Cancel
-
-        </button>
+        
     </form>
 
 </section>
@@ -280,49 +284,50 @@
         </li>
     </ul>
 </section>
+
 <footer>
-    <div>
+    <div class="footer-redes">
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/snapchat-icon.svg" alt="snapchat"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/snapchat-icon.svg" alt="snapchat"/> </a>
         </li>
        </ul>
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/whatsapp-icon.svg" alt="whatsapp"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/whatsapp-icon.svg" alt="whatsapp"/> </a>
         </li>
        </ul>
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/facebook-icon.svg" alt="facebook"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/facebook-icon.svg" alt="facebook"/> </a>
         </li>
        </ul>
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/instagram-icon.svg" alt="instagram"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/instagram-icon.svg" alt="instagram"/> </a>
         </li>
        </ul>
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/telegram-icon.svg" alt="telegram"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/telegram-icon.svg" alt="telegram"/> </a>
         </li>
        </ul>
        <ul>
         <li> 
-            <a target="_blank" href=""><img src="./assets/images/linkedin-icon.svg" alt="linkedin"/> </a>
+            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/linkedin-icon.svg" alt="linkedin"/> </a>
         </li>
        </ul>
     </div>
-    <div>
+    <div class="footer-copyright">
         <p>
             Rosario, Argentina
             Copyright © 2022 Radium Rocket. All rights reserved.
         </p>
     </div>
-    <div>
+    <div class="logo-img">
         <img src="./assets/images/image-logo-01.png" alt="mega-radium-gym"/>
     </div>
 </footer>
-
+</section>
 </body>
 </html>

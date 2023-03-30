@@ -6,8 +6,7 @@ This repo is made for the Bootcamp from radium rocket Become a software profesio
 This folder is for the semanal practice number two.
 
 ```
-In this repository its gonna be the html files for the landing page of MegaRocket SA
-It still remaining the css files
+In this folder its gonna be the html files for the landing page of MegaRocket SA
 ```
 
 ### Features
@@ -31,3 +30,8 @@ It still remaining the css files
 
 ## [Week-03](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-03)  
 This folder is for the semanal practice number Three.
+
+```
+In this folder its gonna be the css files for the landing page of MegaRocket SA
+```
+

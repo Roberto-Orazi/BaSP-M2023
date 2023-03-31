@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@200;300;400;500&family=Montserrat:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +12,40 @@
     </title>
 </head>
 <body>
+    <head>
     <header>
-        <p>
+        
+            <p>
             Mega Rocket SA
-        </p>
+            </p>
+        
     </header>
+</head>
     <aside>
         <ul>
             <li>
-                <img src="./assets/images/house-icon.svg" alt="house"/> 
+                <input type="text" placeholder="Search">
+            </li>
+            <li>
+                <img src="../assets/images/house-icon.svg" alt="house"> 
                 <button type="button">
                     <p>Home</p>
                 </button>
             </li>
             <li>
-                <img src="./assets/images/plus-icon.svg" alt="plus"/>
+                <img src="../assets/images/plus-icon.svg" alt="plus">
                 <button type="button">
                     <p>Sign up</p>
                 </button>
             </li>
             <li>
-                <img src="./assets/images/user-group-icon.svg" alt="user group"/>
+                <img src="../assets/images/user-group-icon.svg" alt="user group">
                 <button type="button">
                     <p> Sign in</p>
                 </button>
             </li>
             <li>
-                <img src="./assets/images/box-icon.svg" alt="inbox"/> 
+                <img src="../assets/images/box-icon.svg" alt="inbox"> 
                 <button type="button">
                     <p>Contact</p>
                 </button>
@@ -49,22 +57,20 @@
         </h3>
             <ul> 
                 <li>
-                    <img src="./assets/images/mail-icon.svg" alt="mail"/> 
+                    <img src="../assets/images/mail-icon.svg" alt="mail"> 
                     <a href="mailto:information@untitled.tld" target="_blank">
                         information@untitled.tld
                     </a>
                 </li>
-                
                 <li>
-                    <img src="./assets/images/mobile-screen-icon.svg" alt="mobile-phone"/>
+                    <img src="../assets/images/mobile-screen-icon.svg" alt="mobile-phone">
                     <a href="tel:00000000" target="_blank">
                         (000)000-0000
 
                     </a>
                 </li>
-                
                 <li>
-                    <img src="./assets/images/location-icon.svg" alt="location"/>
+                    <img src="../assets/images/location-icon.svg" alt="location">
                     <a href="https://www.google.com.ar/maps" target="_blank">
                         1234 Somewhere Road #8254Nashville, TN 00000-0000
                     </a>
@@ -73,11 +79,12 @@
         </div>
         </aside>
         <section class="not-static">
+            <main>
 <section class="section-Home" id="home">
     <h1>
         Hi, and welcome to Mega Rocket SA Gym
     </h1>
-    <img src="./assets/images/photo-home.png" alt="home"/>
+    <img src="../assets/images/photo-home.png" alt="home">
     <h2>
         A FREE AND FULLY RESPONSIVE SITE TEMPLATE
     </h2>
@@ -88,28 +95,28 @@
 </section>
 <section class="section-Options" id="options">
     <div>
-        <img src="./assets/images/image-calendar-01.png" alt="calendar"/>
+        <img src="../assets/images/image-calendar-01.png" alt="calendar">
         <h5>
             Appointment booking
         </h5>
         <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
-        <img src="./assets/images/image-calendar-02.png" alt="calendar"/>
+        <img src="../assets/images/image-calendar-02.png" alt="calendar">
         <h5>
             Calendar and opening hours
         </h5>
         <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
-        <img src="./assets/images/image-cards-01.png" alt="cards"/>
+        <img src="../assets/images/image-cards-01.png" alt="cards">
         <h5 >
             Management and membership
         </h5>
         <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.</p>
     </div>
     <div>
-        <img src="./assets/images/image-form-01.png" alt="form"/>
+        <img src="../assets/images/image-form-01.png" alt="form">
         <h5 >
             Contact form and suggestions
         </h5>
@@ -125,101 +132,111 @@
         <h4>
             Name
         </h4>
-        <input type="text" name="name" placeholder="" required/>
+        <input type="text" name="name" placeholder="" required>
     </div>
     <div>
         <h4>
             Lastname
         </h4>
-        <input type="text" name="lastname" placeholder="" required/>
+        <input type="text" name="lastname" placeholder="" required>
     </div>
-    <div>
+    
         <h4>
             E-mail
         </h4>
-        <input type="text" name="email" placeholder="" required/>
-    </div>
-    <div>
+        <input type="text" name="email" placeholder="" required>
+    
+    
     <input type="radio" name="radio" id="members">
     <h5>
         I want to know memberships and costs
     </h5>
-    </div>
-    <div>
+    
         <input type="radio" name="radio" id="sugg">
         <h5>
             I want to make a question or suggestion
         </h5>
-        </div>
-        <div>
+       
             <input type="radio" name="radio" id="claim">
             <h5>
                 I want to make a claim
             </h5>
-        </div>
-        <div>
+        
+        
             <h4>
                 Comments
             </h4>
             <textarea></textarea>
-        </div>
+        
         <button type="button">
             Send
         </button>
-        
     </form>
-
 </section>
 <section class="section-About" id="about">
     <h2>
         About Us
     </h2>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui eveniet porro autem deleniti magnam id consequuntur reprehenderit fugit blanditiis, eum earum enim aliquam, modi necessitatibus fuga mollitia. Molestiae, doloribus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui eveniet porro autem deleniti magnam id
+        consequuntur reprehenderit fugit blanditiis, eum earum enim aliquam, modi necessitatibus fuga mollitia.
+        Molestiae, doloribus!
     </p>
 </section>
-<section class="section-Activities" id="activities">
+<section class="section-activities" id="activities">
     <h2>
         Activities
     </h2>
-    <div>
-        <div>
-            <img src="./assets/images/image-crossfit-01.png" alt="crossfit"/>
+    <table class="table-activities"> 
+        <tr>
+            <th>
+                <img src="../assets/images/image-crossfit-01.png" alt="crossfit">
             <h5>
                 Crossfit
             </h5>
-        </div>
-        <div>
-            <img src="./assets/images/image-functional-01.png" alt="functional"/>
+            </th>
+       
+            <th>
+                <img src="../assets/images/image-functional-01.png" alt="functional">
             <h5>
                 Functional
             </h5>
-        </div>
-        <div>
-            <img src="./assets/images/image-boxing-01.png" alt="boxing"/>
-            <h5>
-                Boxing
-            </h5>
-        </div>
-        <div>
-            <img src="./assets/images/image-spinning-01.png" alt="spinning"/>
-            <h5>
-                Spinning
-            </h5>
-        </div>
-        <div>
-            <img src="./assets/images/image-fitness-01.png" alt="fitness"/>
-            <h5>
-                Fitness
-            </h5>
-        </div>
-    </div>
+            </th>
+            <th>
+                <img src="../assets/images/image-boxing-01.png" alt="boxing">
+                <h5>
+                    Boxing
+                </h5>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>
+                <img src="../assets/images/image-spinning-01.png" alt="spinning">
+                <h5>
+                    Spinning
+                </h5>
+            </th>
+            <th>
+                <img src="../assets/images/image-fitness-01.png" alt="fitness">
+                <h5>
+                    Fitness
+                </h5>
+            </th>
+        </tr>
+        
+ 
+
+    </table>
+        
+            
+      
 </section>
-<section class="section-Memberships" id="memberships">
+<section class="section-memberships" id="memberships">
     <h2>
         Memberships
     </h2>
-    <h5>
+    <h5 id="black">
         Black Membership
     </h5>
     <ul>
@@ -231,7 +248,6 @@
         <li>
             <p>
                 free access to classes prior registration
-
             </p>
         </li>
         <li>
@@ -245,9 +261,8 @@
             </p>
         </li>
     </ul>
-    <h5>
+    <h5 id="classic">
         Classic Membership
-
     </h5>
     <ul>
         <li>
@@ -258,7 +273,6 @@
         <li>
             <p>
                 Follow-up analyzed by coach
-
             </p>
         </li>
         <li>
@@ -267,7 +281,7 @@
             </p>
         </li>
     </ul>
-    <h5>
+    <h5 id="only-classes">
         Only Classes Membership
     </h5>
     <ul>
@@ -279,53 +293,40 @@
         <li>
             <p>
                 Grid display
-
             </p>
         </li>
     </ul>
 </section>
-
+</main>
 <footer>
-    <div class="footer-redes">
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/snapchat-icon.svg" alt="snapchat"/> </a>
-        </li>
-       </ul>
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/whatsapp-icon.svg" alt="whatsapp"/> </a>
-        </li>
-       </ul>
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/facebook-icon.svg" alt="facebook"/> </a>
-        </li>
-       </ul>
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/instagram-icon.svg" alt="instagram"/> </a>
-        </li>
-       </ul>
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/telegram-icon.svg" alt="telegram"/> </a>
-        </li>
-       </ul>
-       <ul>
-        <li> 
-            <a class="redes-icon" target="_blank" href=""><img src="./assets/images/linkedin-icon.svg" alt="linkedin"/> </a>
-        </li>
-       </ul>
-    </div>
-    <div class="footer-copyright">
-        <p>
-            Rosario, Argentina
-            Copyright © 2022 Radium Rocket. All rights reserved.
-        </p>
-    </div>
+    <table>
+        <tr>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/snapchat-icon.svg" alt="snapchat"></a>
+            </th>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/whatsapp-icon.svg" alt="whatsapp"></a>
+            </th>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/facebook-icon.svg" alt="facebook"></a>
+            </th>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/instagram-icon.svg" alt="instagram"></a>
+            </th>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/telegram-icon.svg" alt="telegram"></a>
+            </th>
+            <th>
+                <a class="redes-icon" target="_blank" href=""><img src="../assets/images/linkedin-icon.svg" alt="linkedin"></a>
+            </th>
+            <th><p>
+                Rosario, Argentina
+                Copyright © 2022 Radium Rocket. All rights reserved.
+            </p></th>
+        </tr>
+    </table>
     <div class="logo-img">
-        <img src="./assets/images/image-logo-01.png" alt="mega-radium-gym"/>
+        <img src="../assets/images/image-logo-01.png" alt="mega-radium-gym">
     </div>
 </footer>
 </section>

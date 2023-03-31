@@ -132,13 +132,59 @@ ul{
   }
 
 
-  main{text-align: center;}
+  main{
+    text-align: center;
+    max-width: 1050px;
+  }
   .table-activities{
   display: inline-block;
   
 }
+/*HOME*/
+.section-home h1{
+  margin: 40px 0;
+  font-size: 48px;
+  color: #373867;
+}
+.section-home h2{
+  margin: 40px 0;
+  font-size: 36px;
+  color: #423C3C;
+}
+.section-home p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #776262;
+}
+
+/*REGISTRATION*/
+
+.section-registration h2{
+  margin: 40px 0;
+  font-size: 40px;
+  color: #373867;
+}
+
+
+/*ABOUT US*/
+.section-about h2{
+  margin: 40px 0;
+  font-size: 40px;
+  color: #373867;
+}
+.section-about P{
+ text-align: center;
+ padding: 50px 100px;
+ 
+  background-color: rgba(170, 206, 155, .3);
+}
+
+
+/*ACTIVITIES*/
 .section-activities h2{
-  margin: 50px 0;
+  margin: 40px 0;
+  font-size: 40px;
+  color: #373867;
 }
 .table-activities img,.table-activities h5{
   margin-left: 50px;
@@ -149,17 +195,23 @@ ul{
     height: 220px;
    
   }
-
+/*MEMBERSHIPS*/
   .section-memberships h2{
-    margin: 50px 0;
+    margin: 40px 0;
+    font-size: 40px;
+    color: #373867;
   }
-
+  .section-memberships h5{
+    font-size: 20px;
+    font-weight: 500;
+  }
   #black{
     background-color: #2A2A32;
     color: #FFF;
     border-radius: 5px;
     padding: 5px 30px;
     display: inline-block;
+    width: 300px;
   }
   #classic{
     background-color: #CCCBCB;
@@ -167,6 +219,8 @@ ul{
     border-radius: 5px;
     padding: 5px 30px;
     display: inline-block;
+    margin-top: 20px;
+    width: 300px;
   }
   #only-classes{
     background-color: #EDEDED;
@@ -174,6 +228,8 @@ ul{
     border-radius: 5px;
     padding: 5px 30px;
     display: inline-block;
+    margin-top: 20px;
+    width: 300px;
   }
   .section-memberships p{
     display: block;
@@ -183,6 +239,10 @@ ul{
   }
   
   /*FOOTER*/
+  footer{
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
 th a img{
   width: 25px;
   margin-left: 20px;

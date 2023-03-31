@@ -155,7 +155,35 @@ ul{
   font-size: 20px;
   font-weight: 600;
   color: #776262;
+  max-width: 700px;
+  text-align: center;
+  display: inline-block;
 }
+/*OPTIONS*/
+.section-options{align-items: center;
+  display: inline-block;
+  margin-top: 150px;
+}
+.section-options th{
+  text-align: center;
+  padding: 30px; 
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.section-options img{
+  width: 180px;
+}
+.section-options h5{
+  margin-top: 25px;
+  font-size: 14px;
+}
+.section-options p{
+  margin-top: 15px;
+  font-size: 12px;
+  width: 250px;
+  display: inline-block;
+}
+
 
 /*REGISTRATION*/
 
@@ -175,7 +203,9 @@ ul{
 .section-about P{
  text-align: center;
  padding: 50px 100px;
- 
+ text-align: center;
+ display: inline-block;
+ width: 800px;
   background-color: rgba(170, 206, 155, .3);
 }
 
@@ -193,7 +223,6 @@ ul{
   .table-activities img{
     width: 300px;
     height: 220px;
-   
   }
 /*MEMBERSHIPS*/
   .section-memberships h2{

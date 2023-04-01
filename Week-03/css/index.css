@@ -219,15 +219,16 @@ ul{
   margin-top: 5px;
   margin-bottom: 10px;
   background-color: #fff;
-  min-height: 30px;
+  min-height: 80px;
   max-height: 150px;
   border-radius: 5px;
   border: none;
   display: inline-block;
-  text-align: center;
+  text-align: start;
   min-width: 330px;
   max-width: 330px;
 }
+
 .section-registration button{
   width: 110px;
   height: 30px;
@@ -312,6 +313,7 @@ ul{
   
   /*FOOTER*/
   footer{
+    text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
   }
@@ -321,7 +323,7 @@ th a img{
 }
 
 th p{
-  margin-left: 30px;
+  margin-left: 50px;
   font-weight: 500;  
 }
 
@@ -329,6 +331,6 @@ th p{
 .logo-img{
     position: fixed;
     bottom: 20px;
-    right: 35px; 
+    right: 20px; 
    
 }

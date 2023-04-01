@@ -32,6 +32,18 @@ In this folder its gonna be the html files for the landing page of MegaRocket SA
 This folder is for the semanal practice number Three.
 
 ```
-In this folder its gonna be the css files for the landing page of MegaRocket SA
+In this folder its gonna be the css files for the landing page of MegaRocket SA plus the html file corrected from last Week(02)
 ```
 
+### Features
+
+- Fixed header, Aside bar and logo.
+- No use of flex or grid.
+- Try to use always px sizes, the minimun of percent size.
+- Consistency in the classNames.
+- No responsiveness.
+
+### [CSS Folder](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-03/css)
+
+- Normalize.css is for reseting the explorer we are using.
+- Styles.css is for styling all the html file about the landing page of our gym.

@@ -1,33 +1,9 @@
-html {
-    line-height: 1.15; 
-    -webkit-text-size-adjust: 100%;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #dde1e9;
-}
-  
-  
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-
-
   /*HEADER*/
   header{
-    z-index: 98;
+    z-index: 1;
     background-color: #373867;
     height: 150px;
     width: 100vw;
-    
     left: 0;
     top: 0;
     position: fixed;
@@ -35,7 +11,6 @@ body{
   header p{
     font-size: 40px;
     color: #fff;
-    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +18,6 @@ body{
     margin-left: -209px;
    font-weight: bold;
   }
-
   li img{
     width: 25px;
   }
@@ -58,7 +32,6 @@ body{
   input::placeholder{
     position: relative;
     left: 5px;
-    
   }
   /*ASIDE BAR*/
   aside{
@@ -67,12 +40,9 @@ body{
     position: fixed;
     margin-top: 150px;
     height: 100vh;
-    
   }
- 
   ul li img{
     margin-left: 20px;
-   
   }
   ul li button{
     background-color: #AACE9B;
@@ -83,13 +53,13 @@ body{
     margin-top: 30px;
     margin-left: 20px;
   }
-  ul li button:hover{cursor: pointer;}
+  ul li button:hover{
+    cursor: pointer;
+  }
   ul li button p{
     font-size: 30px;
     font-weight: bold;
   }
-
-
   .info-aside{
     margin-top: 120px;
     width: 330px;
@@ -105,7 +75,6 @@ ul{
     ul li img{
         margin-top: 30px;
     }
-  
   ul li a{
     justify-content: center;
     align-content: center;
@@ -117,12 +86,7 @@ ul{
     color: #000000;
     font-weight:bold;
     width: 230px;
-    
-  
 }
-
-
-
   /*CONTENIDO*/
   .not-static{
     margin: 0 150px;
@@ -130,15 +94,12 @@ ul{
     left: 335px;
     top: 150px;
   }
-
-
   main{
     text-align: center;
     max-width: 1050px;
   }
   .table-activities{
   display: inline-block;
-  
 }
 /*HOME*/
 .section-home h1{
@@ -183,10 +144,7 @@ ul{
   width: 250px;
   display: inline-block;
 }
-
-
 /*REGISTRATION*/
-
 .section-registration h2{
   margin: 40px 0;
   font-size: 40px;
@@ -245,15 +203,12 @@ ul{
   color: #373867;
 }
 .section-about P{
- text-align: center;
  padding: 50px 100px;
  text-align: center;
  display: inline-block;
  width: 800px;
   background-color: rgba(170, 206, 155, .3);
 }
-
-
 /*ACTIVITIES*/
 .section-activities h2{
   margin: 40px 0;
@@ -278,7 +233,7 @@ ul{
     font-size: 20px;
     font-weight: 500;
   }
-  #black{
+  #black-membership{
     background-color: #2A2A32;
     color: #FFF;
     border-radius: 5px;
@@ -286,7 +241,7 @@ ul{
     display: inline-block;
     width: 300px;
   }
-  #classic{
+  #classic-membership{
     background-color: #CCCBCB;
     color: #000;
     border-radius: 5px;
@@ -295,7 +250,7 @@ ul{
     margin-top: 20px;
     width: 300px;
   }
-  #only-classes{
+  #only-classes-membership{
     background-color: #EDEDED;
     color: #000;
     border-radius: 5px;
@@ -308,9 +263,7 @@ ul{
     display: block;
     margin-top: 20px;
     font-size: 14px;
-    
   }
-  
   /*FOOTER*/
   footer{
     text-align: center;
@@ -321,16 +274,13 @@ th a img{
   width: 25px;
   margin-left: 20px;
 }
-
 th p{
   margin-left: 50px;
   font-weight: 500;  
 }
-
 /*LOGO*/
 .logo-img{
     position: fixed;
     bottom: 20px;
     right: 20px; 
-   
 }

@@ -34,7 +34,18 @@
   /**
    * Render the `main` element consistently in IE.
    */
-  
+  hr{
+    width: 30%;
+        height: 10px;
+        background-color: gray;
+        margin: 0px auto;
+        margin-top: 150px;
+        height: 30px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 5px 0 0 0; 
+        border-radius: 20px; 
+  }
   main {
     display: block;
   }

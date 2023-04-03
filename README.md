@@ -42,6 +42,7 @@ In this folder its gonna be the css files for the landing page of MegaRocket SA 
 - Try to use always px sizes, the minimun of percent size.
 - Consistency in the classNames.
 - No responsiveness.
+- Resolution is 1920x1080
 
 ### [CSS Folder](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-03/css)
 

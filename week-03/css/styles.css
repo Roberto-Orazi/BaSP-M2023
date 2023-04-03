@@ -121,9 +121,11 @@ ul{
   display: inline-block;
 }
 /*OPTIONS*/
-.section-options{align-items: center;
+.section-options{
+  align-items: center;
   display: inline-block;
   margin-top: 150px;
+
 }
 .section-options th{
   text-align: center;

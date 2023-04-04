@@ -1,6 +1,29 @@
 # Readme BASP-M2023
 This repo is made for the Bootcamp from radium rocket Become a software profesional March 2023 
 
+## [Week-01](https://www.figma.com/file/IGkIxih6STHxdBqnuGYTlR/BaSP-m2023-MegaRocket-Nico?t=9VCn1VXUUVTbfPFv-6)  
+
+
+```
+This week we work on the design of the page on figma 
+```
+
+### Features
+
+- The complete page with all the sections of the page for users and admins.
+- Different pages for different admins.
+  
+  
+
+### Sections
+
+- Home
+- Options
+- Registration
+- About
+- Activities
+- Memberships
+
 
 ## [Week-02](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-02)  
 This folder is for the semanal practice number two.

@@ -1,4 +1,4 @@
-  /*HEADER*/
+  /* HEADER*/
   header{
     z-index: 1;
     background-color: rgba(55, 56, 103,1);
@@ -33,7 +33,7 @@
     position: relative;
     left: 5px;
   }
-  /*ASIDE BAR*/
+  /* ASIDE BAR*/
   aside{
     background-color: rgba(246, 246, 246,1);
     width: 335px;
@@ -87,7 +87,7 @@ ul{
     font-weight:bold;
     width: 230px;
 }
-  /*CONTENIDO*/
+  /* CONTENIDO*/
   .not-static{
     margin: 0 150px;
     position: absolute;
@@ -101,7 +101,7 @@ ul{
   .table-activities{
   display: inline-block;
 }
-/*HOME*/
+/* HOME*/
 .section-home h1{
   margin: 40px 0;
   font-size: 48px;
@@ -120,7 +120,7 @@ ul{
   text-align: center;
   display: inline-block;
 }
-/*OPTIONS*/
+/* OPTIONS*/
 .section-options{
   align-items: center;
   display: inline-block;
@@ -146,7 +146,7 @@ ul{
   width: 250px;
   display: inline-block;
 }
-/*REGISTRATION*/
+/* REGISTRATION*/
 .section-registration h2{
   margin: 40px 0;
   font-size: 40px;
@@ -198,7 +198,7 @@ ul{
   font-size: 16px;
   font-weight: 500;
 }
-/*ABOUT US*/
+/* ABOUT US*/
 .section-about h2{
   margin: 40px 0;
   font-size: 40px;
@@ -211,7 +211,7 @@ ul{
  width: 800px;
   background-color: rgba(170, 206, 155, .3);
 }
-/*ACTIVITIES*/
+/* ACTIVITIES*/
 .section-activities h2{
   margin: 40px 0;
   font-size: 40px;
@@ -225,7 +225,7 @@ ul{
     width: 300px;
     height: 220px;
   }
-/*MEMBERSHIPS*/
+/* MEMBERSHIPS*/
   .section-memberships h2{
     margin: 40px 0;
     font-size: 40px;
@@ -234,6 +234,9 @@ ul{
   .section-memberships h5{
     font-size: 20px;
     font-weight: 500;
+  }
+  .section-memberships p{
+    font-weight: 700;
   }
   #black-membership{
     background-color: rgba(42, 42, 50,1);
@@ -266,7 +269,7 @@ ul{
     margin-top: 20px;
     font-size: 14px;
   }
-  /*FOOTER*/
+  /* FOOTER*/
   footer{
     text-align: center;
     margin-top: 70px;
@@ -280,7 +283,7 @@ th p{
   margin-left: 50px;
   font-weight: 500;  
 }
-/*LOGO*/
+/* LOGO*/
 .logo-img{
     position: fixed;
     bottom: 20px;

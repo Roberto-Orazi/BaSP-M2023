@@ -1,0 +1,191 @@
+/*Home*/
+.section-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section-home h2{
+   margin-top: 30px;
+    width: 300px;
+    font-size: 20px;
+    color: rgba(66, 60, 60,1);
+  }
+  .section-home p{
+    font-size: 14px;
+    width: 300px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgba(119, 98, 98,1);
+  }
+  .section-home img{
+    width: 300px;
+  }
+  /*Options*/
+  .options-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .options-container img{
+    margin-top: 30px;
+    width: 100px;
+  }
+  .options-container h5{
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .section-options p{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 250px;
+    display: inline-block;
+  }
+  /*Registration*/
+  .section-registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section-registration h5{
+    text-align: start;
+    font-size: 13px;
+  }
+  #name, #lastname, #email{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(186, 184, 184,1);
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+  }
+  .section-registration textarea{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255,1);
+    min-height: 80px;
+    max-height: 150px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    text-align: start;
+    min-width: 200px;
+    max-width: 200px;
+  }
+  .section-registration table{
+    margin: 20px 0;
+    display: inline-block;
+    text-align: start;
+  }
+  .section-registration button{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background-color: rgba(170, 206, 155,1);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  /*About*/
+  .section-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-about p{
+    width: 320px;
+    text-align: start;
+    background-color: rgba(170, 206, 155, .3);
+    padding: 50px 30px;
+  }
+  /*Activities*/
+  .activities-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.activities-container img{
+    width: 280px;
+    margin-top: 20px;
+}
+.activities-container h5{
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* MEMBERSHIPS*/
+.section-memberships{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+#black-membership{
+    background-color: rgba(42, 42, 50,1);
+    color: rgba(255, 255, 255,1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+  }
+  #classic-membership{
+    background-color: rgba(204, 203, 203,1);
+    color: rgba(0, 0, 0,1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+  }
+  #only-classes-membership{
+    background-color: rgba(237, 237, 237,1);
+    color: rgba(0, 0, 0,1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+  }
+  .section-memberships ul li{
+    margin-top: 10px;
+    text-align: center;
+  }
+  /* FOOTER*/
+  footer{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-icons{
+    gap: 17px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+  }
+  .footer-item p{
+    margin-top: 15px;
+  }
+/* LOGO*/
+.logo-img{
+    margin-top: 30px;
+    position: static;
+}

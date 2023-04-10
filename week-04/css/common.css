@@ -1,0 +1,24 @@
+ /*HOME*/
+h1{
+    color: rgba(55, 56, 103,1);
+    width: 300px;
+}
+/*Activities*/
+h2{
+    margin: 40px 0;
+    font-size: 26px;
+    color: rgba(55, 56, 103,1);
+    text-align: center;
+  }
+ul{
+    list-style-type:none;
+}
+/*Footer*/
+ a img{
+  width: 25px;
+}
+p{
+    font-weight: 500;
+    width: 300px !important;
+  }
+  

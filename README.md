@@ -71,3 +71,28 @@ In this folder its gonna be the css files for the landing page of MegaRocket SA 
 
 - Normalize.css is for reseting the explorer we are using.
 - Styles.css is for styling all the html file about the landing page of our gym.
+
+
+## [Week-04](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-04)  
+This folder is for the semanal practice number Four.
+
+```
+In this folder its gonna be the css files for the landing page of MegaRocket SA plus the html file corrected from Week No2
+```
+
+### Features
+
+- Responsive design for mobile, tablet and Desktop
+- Use of flex.
+- Try to use always px sizes, the minimun of percent size.
+- Consistency in the classNames.
+- Resolution are mobile(from 301px to 600px, Tablet(from 601px to 1024px) and desktop(>1025px))
+
+### [CSS Folder](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-04/css)
+
+- Normalize.css is for reseting the explorer we are using.
+- Common.css is for the common and repetitive components styles.
+- Content.css is for the specific classname and id styles.
+- Header.css is only of the header style.
+- Side-bar.css is for the sidebar, only the desktop resolution.
+  

@@ -35,7 +35,7 @@
    * Render the `main` element consistently in IE.
    */
   hr{
-    width: 30%;
+    width: 70%;
         height: 10px;
         background-color: gray;
         margin: 0px auto;

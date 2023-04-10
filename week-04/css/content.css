@@ -189,3 +189,82 @@
     margin-top: 30px;
     position: static;
 }
+@media only screen and (max-width: 330px) {
+    .section-about p{
+        padding: 50px 5px;
+    }
+}
+/*TABLET*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /*Home*/
+    .section-home h2{
+      margin-top: 30px;
+       width: 550px;
+     }
+     .section-home p{
+       width: 500px !important;
+     }
+     .section-home img{
+       width: 550px !important;
+     }
+     /*Options*/
+     .options-container img{ 
+      width: 160px;
+    }
+    .options-container h5{
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .section-options p{
+      margin-top: 15px;
+      font-size: 14px;
+      width: 300px !important;
+      display: inline-block;
+    }
+    /*Activities*/
+.activities-container img{
+    width: 380px;
+    margin-top: 30px;
+}
+.activities-container h5{
+    font-size: 16px;
+    margin-top: 25px;
+}
+/*Registration*/
+#name, #lastname, #email{
+  width: 300px;
+}
+.section-registration textarea{
+  min-width: 300px;
+  max-width: 300px;
+}
+.section-registration table{
+  margin: 20px 0;
+  display: inline-block;
+  text-align: start;
+}
+.section-registration button{
+  width: 140px;
+}
+/*About*/
+.section-about p{
+  width: 500px !important;
+  padding: 50px 20px;
+}
+/*Membership*/
+#black-membership{
+  height:35px;
+  width: 400px;
+}
+#classic-membership{
+  height: 35px;
+  width: 400px;
+}
+#only-classes-membership{
+  height: 35px;
+  width: 400px;
+}
+.section-memberships ul li{
+  margin-top: 15px;
+}
+    }

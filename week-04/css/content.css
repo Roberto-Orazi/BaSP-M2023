@@ -189,6 +189,9 @@
     margin-top: 30px;
     position: static;
 }
+.logo-img img{
+  width: 70px;
+}
 @media only screen and (max-width: 330px) {
     .section-about p{
         padding: 50px 5px;
@@ -231,6 +234,7 @@
     margin-top: 25px;
 }
 /*Registration*/
+
 #name, #lastname, #email{
   width: 300px;
 }
@@ -250,6 +254,7 @@
 .section-about p{
   width: 500px !important;
   padding: 50px 20px;
+  border-radius: 10px;
 }
 /*Membership*/
 #black-membership{
@@ -267,4 +272,149 @@
 .section-memberships ul li{
   margin-top: 15px;
 }
+    }
+    @media only screen and (min-width: 1024px) {
+      .not-static{
+        margin-left: 335px;
+      }
+      /* HOME*/
+.section-home h1{
+  width: 500px !important;
+  font-size: 48px;
+}
+.section-home h2{
+  width:650px;
+  margin: 40px 0;
+  font-size: 36px;
+  color: rgba(66, 60, 60,1);
+}
+.section-home p{
+  font-size: 20px;
+  width: 650px !important;
+  width: fit-content;
+}
+.section-home img{
+  width: 650px;
+}
+/*Options*/
+.options-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.options-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.options-item{
+  margin: 0 auto;
+}
+.options-container img{
+  width: 170px;
+}
+.options-container h5{
+  font-size: 16px;
+}
+.section-options p{
+  font-size: 14px;
+}
+/*Registration*/
+#name, #lastname, #email{
+  width: 340px;
+}
+.section-registration textarea{
+  min-width: 340px;
+  max-width: 340px;
+}
+.section-registration button{
+  width: 160px;
+  height: 40px;
+}
+/*About*/
+.section-about p{
+  width: 650px !important;
+  padding: 50px 40px;
+  border-radius: 10px;
+}
+/*Activities*/
+.activities-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 950px;
+  
+}
+.activities-items{
+ margin-left: 30px;
+}
+.activities-container img{
+  width: 280px !important;
+  height: 250px;
+  margin-top: 20px;
+}
+.activities-container h5{
+  font-size: 16px;
+  margin-top: 20px;
+}
+/*Membership*/
+#black-membership{
+  height:35px;
+  width: 500px;
+}
+#classic-membership{
+  height: 35px;
+  width: 500px;
+}
+#only-classes-membership{
+  height: 35px;
+  width: 500px;
+}
+.section-memberships ul li{
+  margin-top: 20px;
+}
+        /* FOOTER*/
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-item p{
+    width: 700px !important;
+  }
+
+        /* LOGO*/
+  .logo-img{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 100px;
+    }
+    
+    }
+    @media only screen and (min-width: 1220px){
+      /* HOME*/
+      .section-home h1{
+        width: 500px !important;
+        font-size: 48px;
+      }
+      .section-home h2{
+        width:700px;
+        margin: 40px 0;
+        font-size: 36px;
+        color: rgba(66, 60, 60,1);
+      }
+      .section-home p{
+        font-size: 20px;
+        width: 700px !important;
+        width: fit-content;
+      }
+      .section-home img{
+        width: 750px;
+      }
     }

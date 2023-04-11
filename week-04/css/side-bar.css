@@ -75,7 +75,7 @@ aside{
     width: 240px;
     height: 50px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,31 +88,22 @@ aside{
     font-weight: bold;
   }
   .info-aside{
-    margin-top: 120px;
-    width: 330px;
-    margin-left: 20px;
-    position: relative;
-  }
-  aside h3{
-    margin-left: 65px;
-  }
+    margin-top: 250px;
+    width: 350px; 
+}
+.info-aside ul{
+    margin-top: 35px;
+}
 ul{
     list-style-type:none;
 }
-    ul li img{
-        margin-top: 30px;
-    }
+ul li img{
+margin-top: 35px;
+}
   ul li a{
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    margin-top: 34px;
-    margin-left: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    color: rgba(0, 0, 0,1);
-    font-weight:bold;
-    width: 230px;
+   margin-left: 20px;
+   margin-top: 40px;
+   text-align: start;
 }
 }
 

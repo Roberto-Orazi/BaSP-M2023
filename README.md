@@ -96,3 +96,21 @@ In this folder its gonna be the css files for the landing page of MegaRocket SA 
 - Header.css is only of the header style.
 - Side-bar.css is for the sidebar, only the desktop resolution.
   
+
+## [Week-05](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-05)  
+This folder is for the semanal practice number Five.
+
+```
+In this folder its gonna be the practice of javascript of the week five.
+```
+### Features
+#### Javascript
+- Variables and operators
+- Strings
+- Arrays
+- If or Else
+- For
+- Functions
+  
+#### HTML
+- Only the index File

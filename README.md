@@ -105,12 +105,12 @@ In this folder its gonna be the practice of javascript of the week five.
 ```
 ### Features
 #### Javascript
-- Variables and operators
-- Strings
-- Arrays
-- If or Else
-- For
-- Functions
+- [Variables-and-operators](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/01-variables-and-operator.js)
+- [Strings](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/02-strings.js)
+- [Arrays](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/03-arrays.js)
+- [If-or-Else](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/04-if-else.js)
+- [For](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/05-for.js)
+- [Functions](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-05/exercises/06-functions.js)
   
 #### HTML
 - Only the index File

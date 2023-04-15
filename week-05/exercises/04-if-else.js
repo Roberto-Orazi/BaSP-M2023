@@ -15,7 +15,7 @@ console.log('The number is:',num ,'and its Lower than 0,5')
 //  “Adulto mayor” entre 61 y 75 años;
 //  “Anciano” si es mayor a 75 años.
 console.log('-Exercise 4.b')
-var Age = Math.floor(Math.random() * 100);
+var Age = Math.floor(Math.random() * 100)
 if(Age>0 && Age <2)
 console.log('Bebe')
 else if(Age>=2 && Age <=12)

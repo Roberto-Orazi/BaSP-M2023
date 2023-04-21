@@ -21,12 +21,17 @@ header{
   }
 
   /*MAIN*/
+  a h6{
+    color: rgb(92, 92, 92);
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+  }
 main{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
     text-align: center;
 }
 .login-container{
@@ -37,7 +42,7 @@ main{
     display: inline-block;
 }
 h2{
-    margin: 40px 0;
+    margin-bottom: 40px;
     font-size: 26px;
     color: rgba(55, 56, 103,1);
     text-align: center;
@@ -50,17 +55,19 @@ main input{
     border-radius: 5px;
     width: 200px;
     border: none;
-    
     text-align: center;
 }
 .login-item{
     text-align: center;
 }
+.login-item h4{
+    font-size: 14px;
+    font-weight: 600;
+}
 .password-item{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    
     justify-content: center;
 }
 .login-sub-item{
@@ -69,21 +76,31 @@ main input{
     text-align: center;
     align-items: center;
 }
+main a{
+    color: rgba(55, 56, 103,1);
+    font-size: 14px;
+    font-weight: 500;
+}
 #Password-remember{
     width: 15px;
 }
 .login-sub-item h6{
     margin-left: 5px;
+    font-size: 12px;
+    margin-top: -2px;
 }
 button{
-    width: 110px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     border: none;
     background-color: rgba(170, 206, 155,1);
     border-radius: 5px;
+    margin-top: 20px;   
+}
+button a{
     font-size: 16px;
     font-weight: 500;
-    margin-top: 20px;   
+    color: rgba(0, 0, 0,1);
 }
 #h6-new-user{
     margin-top: 15px;

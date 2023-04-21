@@ -58,14 +58,17 @@ h2{
 main input{
   margin-top: 5px;
   margin-bottom: 10px;
-  background-color: rgba(186, 184, 184,1);
+  background-color: rgb(223, 219, 219);
   height: 30px;
   border-radius: 5px;
   width: 200px;
   border: none;
   text-align: center;
 }
-
+.Column-Container h4{
+  font-size: 14px;
+  font-weight: 600;
+}
 #Password-remember{
   width: 15px;
 }

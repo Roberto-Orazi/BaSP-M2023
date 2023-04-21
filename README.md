@@ -114,3 +114,29 @@ In this folder its gonna be the practice of javascript of the week five.
   
 #### HTML
 - Only the index File
+
+
+## [Week-06](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-06)  
+This folder is for the semanal practice number Six.
+
+```
+In this folder its gonna be the practice of javascript of the week six.
+```
+### Files
+#### [Javascript](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-06/js)
+- [Contact](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/js/contact.js)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/js/sign-up.js)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/js/login.js)
+  
+#### [HTML](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-06/views)
+- [Index](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/views/index.html)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/views/sign-up.html)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/views/login.html)
+#### [CSS](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-06/css)
+
+- [Normalize](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/normalize.css)
+- [Header](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/header.css)
+- [Common](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/common.css)
+- [Content](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/content.css)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/sign-up.css)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/login.css)

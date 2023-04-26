@@ -65,6 +65,9 @@ main input{
   border: none;
   text-align: center;
 }
+input:focus{
+  outline: none;
+}
 .Column-Container h4{
   font-size: 14px;
   font-weight: 600;
@@ -92,7 +95,6 @@ button a{
 #h6-new-user{
   margin-top: 15px;
 }
-
 @media only screen and (max-width: 625px) {
   .sign-up-container{
     display: flex;
@@ -102,4 +104,16 @@ button a{
   main{
     width: 300px;
   }
+}
+label{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.error{
+  margin-top: 5px;
+  color: red;
+}
+.invalid{
+  border: solid 1px red;
 }

@@ -19,7 +19,6 @@ header{
     color: rgba(255, 255, 255,1);
     font-weight: bold;
   }
-
   /*MAIN*/
   a h6{
     color: rgb(92, 92, 92);
@@ -34,20 +33,14 @@ main{
     margin-top: 50px;
     text-align: center;
 }
-.login-container{
-    background-color: rgb(238, 238, 238);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 50px;
-    display: inline-block;
-}
+
 h2{
     margin-bottom: 40px;
     font-size: 26px;
     color: rgba(55, 56, 103,1);
     text-align: center;
   }
-main input{
+input{
     margin-top: 5px;
     margin-bottom: 10px;
     background-color: rgb(223, 219, 219);
@@ -61,10 +54,10 @@ main input{
 input:focus{
    outline: none;
 }
-.login-item{
+.recover-item{
     text-align: center;
 }
-.login-item h4{
+.recover-item h4{
     font-size: 14px;
     font-weight: 600;
 }
@@ -74,7 +67,7 @@ input:focus{
     gap: 15px;
     justify-content: center;
 }
-.login-sub-item{
+.recover-sub-item{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -88,7 +81,7 @@ main a{
 #Password-remember{
     width: 15px;
 }
-.login-sub-item h6{
+.recover-sub-item h6{
     margin-left: 5px;
     font-size: 12px;
     margin-top: -2px;
@@ -99,7 +92,6 @@ button{
     border: none;
     background-color: rgba(170, 206, 155,1);
     border-radius: 5px;
-    margin-top: 20px;   
 }
 button a{
     font-size: 16px;
@@ -109,19 +101,31 @@ button a{
 #h6-new-user{
     margin-top: 15px;
 }
-pre{
-    margin-top: 10px;
-    color: black;
-    padding: 20px;
-    background-color: rgb(196, 196, 196);
+.recover-item-input{
+    display: flex;
+    flex-direction: column;
 }
-.login-item-correct, .login-input{
+.recover-item-correct{
     border: 1px solid rgb(94, 255, 0); 
  }
- .login-item-incorrect, .login-input{
+ .recover-item-incorrect{
     border: 1px solid rgb(255, 0, 0); 
  }
-
+ .recover-input-error{
+    display: none;
+    font-size: 12px;
+ }
+ .recover-input-error:active{
+    display: block;
+ }
+ .recover-message-success{
+    font-size: 14px;
+    color: rgb(94, 255, 0);
+    display: none;
+ }
+.recover-message-success-active{
+    display: block;
+ }
  form{
     display: flex;
     flex-direction: column;
@@ -130,9 +134,9 @@ pre{
     border: 1px solid black;
     border-radius: 10px;
     padding: 50px;
-    width: 330px;
+    width: 300px;
     margin: 0 auto;
-    gap: 5px;
+    gap: 40px;
 }
 label{
     display: flex;

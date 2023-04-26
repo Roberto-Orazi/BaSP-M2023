@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../js/Login.js"></script>
     <link
-    href="shorturl.at/dqHY2"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/normalize.css">
@@ -14,6 +13,7 @@
     <title>
         Log in
     </title>
+    
 </head>
 <body>
     <head>
@@ -30,19 +30,22 @@
         <h2>
             Log In
         </h2>
-        <div class="login-container">
-            <div class="login-item">
-                <h4>
+        <form>
+            <label for="mail">
+                <em>
                     Email
-                </h4>
-                <input type="text" id="Email" name="Email" placeholder="">
-            </div>
-            <div class="login-item">
-                <h4>
+                </em>
+                <input type="text" name="mail" id="mail">
+                <span>
+                </span>
+            </label>
+            <label for="password">
+                <em>
                     Password
-                </h4>
-                <input type="text" id="Password" name="Password" placeholder="">
-            </div>
+                </em>
+                <input type="password" name="password" id="password">
+                <span></span>
+            </label>
             <div class="password-item">
                 <div class="login-sub-item">
                     <input type="radio" id="Password-remember" name="Password-remember">
@@ -56,20 +59,17 @@
                     </a>
                 </div>
             </div>
-            <div class="login-item">
-            <button type="button">
-                <a href="./index.html">
-                    Log in
-                </a>
-            </button>
-            <h6 id="h6-new-user">
-                Are you new here?
-                <a href="./sign-up.html">
-                    Register
-                </a>
-            </h6>
-            </div>
-        </div>
+                <button type="submit">
+                        Log in
+                </button>
+                <h6 id="h6-new-user">
+                    Are you new here?
+                    <a href="./sign-up.html">
+                        Register
+                    </a>
+                </h6>
+        </form>
+        <script src="../js/login.js"></script>
     </main>
 </body>
 </html>

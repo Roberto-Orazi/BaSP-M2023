@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../js/Login.js"></script>
     <link
-    href="shorturl.at/dqHY2"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/recover.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="icon" href="../../assets/images/image-logo-01.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>
+        Log in
+    </title>
 </head>
 <body>
     <head>
@@ -21,28 +22,82 @@
                 </p>
         </header>
     </head>
-    <a href="./index.html"><h6>
+    <a href="./index.html">
+        <h6>
         < back to landing page
-    </h6></a>
+        </h6>
+    </a>
     <main>
         <h2>
             Recover Password
         </h2>
-        <div class="login-container">
-            <div class="login-item">
-                <h4>
-                    Enter you registered email
-                </h4>
-                <input type="text" id="Email" name="Email" placeholder="">
+        <form>
+            <label for="email">
+                <em>
+                    Email
+                </em>
+                <input type="text" name="email" id="email">
+                <span>
+                </span>
+            </label>
+                <button type="submit">
+                        New Password
+                </button>
+                
+        </form>
+        
+    </main>
+    <script src="../js/recover.js"></script>
+</body>
+</html>
+<!--<div class="recover-container" id="recoverForm">
+            <div class="recover-item-input" id="recover-inputs">
+                    <label for="emailinput" class="recover-label">
+                        Enter you registered email
+                    </label>
+                    <input type="email" id="emailinput" class="recover-input" name="email" placeholder="">
+                    <p class="recover-input-error">
+                        The mail can only have numbers, letters and dots.
+                    </p>
             </div>
-            <div class="login-item">
-            <button type="button">
-                <a href="./login.html">
+            <div class="recover-item" id="buttonRecover">
+            <button type="submit">
+                <a href="">
                     New Password
                 </a>
             </button>
+            <p class="recover-message-success" id="recover-message-success">Form send successfully</p>
             </div>
-        </div>
-    </main>
-</body>
-</html>
+        </div>-->
+<!--
+const form = document.getElementById('recoverForm');
+const inputs = document.querySelectorAll('#recoverForm input');
+
+const validation = {
+    email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
+}
+
+const validate = (e) => {
+switch(e.target.name){
+    case "emailinput":
+        if(validation.emailinput.test(e.target.value)){
+            document.getElementById('recover-inputs').classList.remove('recover-item-incorrect')
+            document.getElementById('recover-inputs').classList.add('recover-item-correct')
+        }else{
+            document.getElementById('recover-inputs').classList.add('recover-item-incorrect')
+            document.getElementById('recover-inputs').classList.remove('recover-item-correct')
+        }
+    break;
+}
+}
+inputs.forEach((inputs)=>{
+    inputs.addEventListener('keyup', validate)
+    inputs.addEventListener('blur', validate)
+});
+
+recoverForm.addEventListener('submit', (e) => {
+    e.preventDefault
+});
+
+
+-->

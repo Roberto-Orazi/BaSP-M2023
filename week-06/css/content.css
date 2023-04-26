@@ -53,7 +53,7 @@
     text-align: start;
     font-size: 13px;
   }
-  #name, #lastname, #email{
+  #name, #lastname, #emails{
     margin-top: 5px;
     margin-bottom: 10px;
     background-color: rgba(186, 184, 184,1);
@@ -238,7 +238,7 @@
   }
 /*Registration*/
 
-  #name, #lastname, #email{
+  #name, #lastname, #emails{
     width: 300px;
   }
   .section-registration textarea{
@@ -325,7 +325,7 @@
   font-size: 14px;
 }
 /*Registration*/
-#name, #lastname, #email{
+#name, #lastname, #emails{
   width: 340px;
 }
 .section-registration textarea{

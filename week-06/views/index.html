@@ -16,7 +16,6 @@
     <title>
         Week 06
     </title>
-    <script src="../js/contact.js"></script>
 </head>
 <body>
     <head>
@@ -156,24 +155,31 @@
         Registration and/or Claim
     </h2>
     <form>
-    <div>
-        <h4>
-            Name
-        </h4>
-        <input type="text" id="name" name="name" placeholder="" required>
-    </div>
-    <div>
-        <h4>
-            Lastname
-        </h4>
-        <input type="text" id="lastname"  name="lastname" placeholder="" required>
-    </div>
-    <div>
-        <h4>
-            E-mail
-        </h4>
-        <input type="text" id="email"  name="email" placeholder="" required>
-    </div>
+        <form>
+            <label for="name">
+                <em>
+                    Name
+                </em>
+                <input type="text" name="name" id="name">
+                <span>
+                </span>
+            </label>
+        <label for="lastname">
+            <em>
+                Last Name
+            </em>
+            <input type="text" name="lastname" id="lastname">
+            <span>
+            </span>
+        </label>
+        <label for="emails">
+            <em>
+                Email
+            </em>
+            <input type="text" name="emails" id="emails">
+            <span>
+            </span>
+        </label>
     <table>
         <tr>
             <th>
@@ -207,14 +213,14 @@
         </tr>
     
         </table>
-        <div>
-            <h4 class="comments-h4">
+        <label for="description">
+            <em>
                 Comments
-            </h4>
-            <textarea>
-
-            </textarea>
-        </div>
+            </em>
+            <textarea type="text" name="description" id="description"></textarea>
+            <span>
+            </span>
+        </label>
         <button type="button">
             Send
         </button>
@@ -386,5 +392,6 @@
     </div>
 </footer>
 </section>
+<script src="../js/contact.js"></script>
 </body>
 </html>

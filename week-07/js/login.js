@@ -5,7 +5,7 @@ function emailValidation(email) {
     const emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
     return emailExpression.test(email);
 }
-emailInput.addEventListener('blur', function() {
+emailInput.addEventListener('blur', function () {
     if (!emailValidation(emailInput.value)) {
         emailInput.classList.add('login-item-incorrect');
         invalidEmail.classList.remove('hide-class');
@@ -34,7 +34,7 @@ function passwordValidation(password) {
     }
     return false;
 }
-passwordInput.addEventListener('blur', function() {
+passwordInput.addEventListener('blur', function () {
     if (!passwordValidation(passwordInput.value)) {
         passwordInput.classList.add('login-item-incorrect');
         invalidPassword.classList.remove('hide-class');
@@ -62,7 +62,7 @@ function fieldsValidation(email, password) {
 }
 //SUBMIT
 const submitButton = document.querySelector('button[type="submit"]');
-submitButton.addEventListener('click', function(e) {
+submitButton.addEventListener('click', function (e) {
     e.preventDefault();
     if (passwordValidation(passwordInput.value) && emailValidation(emailInput.value)) {
         alert('Email: ' + emailInput.value + '\nPassword: ' + passwordInput.value);

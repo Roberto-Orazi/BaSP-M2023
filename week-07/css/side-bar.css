@@ -1,0 +1,110 @@
+aside{
+    background-color: #F6F6F6;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+#burger-button{
+    width: 40px;
+    margin-left: 40px;
+    display: block;
+}
+aside img{
+    display: none;
+}
+aside input{
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 30px;    
+}
+aside ul li{
+    display: flex;
+    justify-content: center;
+}
+aside img{
+    width: 25px;
+}
+aside button{
+    background-color: rgba(170, 206, 155,1);
+    border: none;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+ul li button:hover{
+    cursor: pointer;
+}
+aside h3{
+    text-align: center;
+    margin-top: 100px;
+}
+aside li a{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0,1);
+    font-weight:bold;
+    width: 230px;
+}
+@media only screen and (min-width: 1024px){
+    #search-icon{
+        display: none;
+    }
+    #burger-button{
+        display: none;
+    }
+/* ASIDE BAR*/
+    aside{
+        background-color: rgba(246, 246, 246,1);
+        width: 335px;
+        position: fixed;
+        height: 100vh;
+        display: block;
+    }
+    aside img{
+        display: flex;
+    }
+    ul li button{
+        background-color: rgba(170, 206, 155,1);
+        border: none;
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul li button:hover{
+        cursor: pointer;
+    }
+    ul li button a{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .info-aside{
+        margin-top: 250px;
+        width: 350px; 
+    }
+    .info-aside ul{
+        margin-top: 35px;
+    }   
+    ul{
+        list-style-type:none;
+    }
+    ul li img{
+        margin-top: 35px;
+    }
+    ul li a{
+        margin-left: 20px;
+        margin-top: 40px;
+        text-align: start;
+    }
+}
+

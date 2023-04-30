@@ -1,0 +1,152 @@
+/*HEADER*/
+header{
+    z-index: 1;
+    background-color: rgba(55, 56, 103,1);
+    height: 150px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header p{
+    width: 500px !important;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255,1);
+    font-weight: bold;
+  }
+
+  /*MAIN*/
+  a h6{
+    color: rgb(92, 92, 92);
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+  }
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+.login-container{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    display: inline-block;
+}
+h2{
+    margin-bottom: 40px;
+    font-size: 26px;
+    color: rgba(55, 56, 103,1);
+    text-align: center;
+  }
+main input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(223, 219, 219);
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    border: 1px solid #000;
+}
+input:focus{
+   outline: none;
+}
+.login-item{
+    text-align: center;
+}
+.login-item h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.password-item{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+.login-sub-item{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+main a{
+    color: rgba(55, 56, 103,1);
+    font-size: 14px;
+    font-weight: 500;
+}
+#Password-remember{
+    width: 20px;
+}
+.password-item input{
+    width: 20px;
+}
+.login-sub-item h6{
+    font-size: 12px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgba(170, 206, 155,1);
+    border-radius: 5px;
+    margin-top: 20px !important;   
+}
+button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0,1);
+}
+#h6-new-user{
+    margin-top: 15px;
+}
+pre{
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+    background-color: rgb(196, 196, 196);
+}
+ .login-item-incorrect{
+    border: 1px solid rgb(255, 0, 0); 
+ }
+ form span{
+    color: rgb(255, 0, 0);
+    position:fixed;
+    margin-top: 70px;
+}
+#invalid-password2{
+    margin-top: 155px;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    width: 330px;
+    margin: 0 auto;
+    gap: 5px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 10px;
+}
+.hide-class{
+    display: none;
+}

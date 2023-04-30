@@ -1,11 +1,11 @@
 //EMAIL
-const emailInput = document.getElementById('mail');
-const invalidEmail = document.getElementById('invalid-mail');
+var emailInput = document.getElementById('mail');
+var invalidEmail = document.getElementById('invalid-mail');
 function emailValidation(email) {
-    const emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
+    var emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
     return emailExpression.test(email);
 }
-emailInput.addEventListener('blur', function () {
+emailInput.addEventListener('blur', function() {
     if (!emailValidation(emailInput.value)) {
         emailInput.classList.add('login-item-incorrect');
         invalidEmail.classList.remove('hide-class');
@@ -15,8 +15,8 @@ emailInput.addEventListener('blur', function () {
     }
 });
 //PASSWORD
-const passwordInput = document.getElementById('password2');
-const invalidPassword = document.getElementById('invalid-password2');
+var passwordInput = document.getElementById('password2');
+var invalidPassword = document.getElementById('invalid-password2');
 function passwordValidation(password) {
     if (password.length >= 8) {
         let hasNumber = false;
@@ -34,7 +34,7 @@ function passwordValidation(password) {
     }
     return false;
 }
-passwordInput.addEventListener('blur', function () {
+passwordInput.addEventListener('blur', function() {
     if (!passwordValidation(passwordInput.value)) {
         passwordInput.classList.add('login-item-incorrect');
         invalidPassword.classList.remove('hide-class');
@@ -61,8 +61,8 @@ function fieldsValidation(email, password) {
     }
 }
 //SUBMIT
-const submitButton = document.querySelector('button[type="submit"]');
-submitButton.addEventListener('click', function (e) {
+var submitButton = document.querySelector('button[type="submit"]');
+submitButton.addEventListener('click', function(e) {
     e.preventDefault();
     if (passwordValidation(passwordInput.value) && emailValidation(emailInput.value)) {
         alert('Email: ' + emailInput.value + '\nPassword: ' + passwordInput.value);

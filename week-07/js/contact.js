@@ -1,8 +1,8 @@
 //Name validation
-const nameField = document.querySelector("[name=name]")
-const validationName = e => {
-const field = e.target;
-const fieldValue = e.currentTarget.value;
+var nameField = document.querySelector("[name=name]")
+var validationName = e => {
+var field = e.target;
+var fieldValue = e.currentTarget.value;
 if (fieldValue.trim().length <= 3 || !/^[a-zA-Z\s]+$/.test(fieldValue)) {
 field.classList.add("invalid");
 field.nextElementSibling.classList.add("error");
@@ -16,10 +16,10 @@ field.nextElementSibling.innerText = "";
 nameField.addEventListener("input", validationName);
 
 //LastName validation
-const lastNameField = document.querySelector("[name=lastname]")
-const validationLastName = e => {
-const field = e.target;
-const fieldValue = e.currentTarget.value;
+var lastNameField = document.querySelector("[name=lastname]")
+var validationLastName = e => {
+var field = e.target;
+var fieldValue = e.currentTarget.value;
 if (fieldValue.trim().length <= 3 || !/^[a-zA-Z\s]+$/.test(fieldValue)) {
 field.classList.add("invalid");
 field.nextElementSibling.classList.add("error");
@@ -33,10 +33,10 @@ field.nextElementSibling.innerText = "";
 lastNameField.addEventListener("input", validationLastName);
 
 //Email validation
-const emailsField = document.querySelector("[name=emails]")
-const validationLogin = e => {
-const field = e.target;
-const fieldValue = e.currentTarget.value;
+var emailsField = document.querySelector("[name=emails]")
+var validationLogin = e => {
+var field = e.target;
+var fieldValue = e.currentTarget.value;
 if (fieldValue.trim().length <= 4 || !/^[^@]+@[^@]+.[a-zA-Z]{2,}$/.test(fieldValue)) {
 field.classList.add("invalid");
 field.nextElementSibling.classList.add("error");
@@ -50,10 +50,10 @@ field.nextElementSibling.innerText = "";
 emailsField.addEventListener("input", validationLogin);
 
 //Description validation
-const descriptionField = document.querySelector("[name=description]")
-const validationdescription = e => {
-const field = e.target;
-const fieldValue = e.currentTarget.value;
+var descriptionField = document.querySelector("[name=description]")
+var validationdescription = e => {
+var field = e.target;
+var fieldValue = e.currentTarget.value;
 if (fieldValue.trim().length <= 3 || !/^[a-zA-Z0-9]+$/.test(fieldValue)) {
 field.classList.add("invalid");
 field.nextElementSibling.classList.add("error");

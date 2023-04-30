@@ -255,7 +255,7 @@ submitBtn.addEventListener("click", (event) => {
     var addressValue = addressField.value.trim();
     var cityValue = cityField.value.trim();
     var zipCodeValue = zipCodeField.value.trim();
-    var emailValue = emailsField.value.trim();
+    var emailsValue = emailsField.value.trim();
     var passwordValue = passwordField.value.trim();
     if (
         nameValue &&
@@ -265,7 +265,7 @@ submitBtn.addEventListener("click", (event) => {
         addressValue &&
         cityValue &&
         zipCodeValue &&
-        emailsField &&
+        emailsValue &&
         passwordValue
     ) {
         var message =
@@ -285,12 +285,12 @@ submitBtn.addEventListener("click", (event) => {
             addressValue +
             "\n" +
             "City: " +
-            cityValue;
+            cityValue +
             "Zip Code: " +
             zipCodeValue +
             "\n" +
             "Email: " +
-            emailsField +
+            emailsValue +
             "\n" +
             "Password: " +
             passwordValue;

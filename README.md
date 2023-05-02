@@ -140,3 +140,32 @@ In this folder its gonna be the practice of javascript of the week six.
 - [Content](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/content.css)
 - [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/sign-up.css)
 - [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-06/css/login.css)
+
+
+## [Week-07](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/Week-07)  
+This folder is for the semanal practice number Seven.
+
+```
+In this folder its gonna be the practice of javascript of the week Seven.
+```
+### Files
+#### [Javascript](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-06/js)
+- [Contact](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/js/contact.js)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/js/sign-up.js)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/js/login.js)
+  
+#### [HTML](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-07/views)
+- [Index](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/views/index.html)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/views/sign-up.html)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/views/login.html)
+#### [CSS](https://github.com/Roberto-Orazi/BaSP-M2023/tree/main/week-07/css)
+
+- [Normalize](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/normalize.css)
+- [Header](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/header.css)
+- [Common](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/common.css)
+- [Content](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/content.css)
+- [Sign Up](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/sign-up.css)
+- [Login](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/css/login.css)
+
+#### [PDF](https://github.com/Roberto-Orazi/BaSP-M2023/blob/main/week-07/Requirement.pdf)
+- This is a pdf of the requirements of the validation for the forms.

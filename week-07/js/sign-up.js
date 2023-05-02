@@ -186,7 +186,7 @@ var emailsField = document.querySelector("[name=emails]")
 var validationLogin = e => {
     var field = e.target;
     var fieldValue = e.currentTarget.value;
-    if (fieldValue.trim().length <= 4 || !fieldValue.includes("@") || !fieldValue.includes(".")) {
+     if (fieldValue.trim().length <= 4 || !fieldValue.includes("@") || !fieldValue.includes(".")) {
         field.classList.add("invalid")
         field.nextElementSibling.classList.add("error");
         field.nextElementSibling.innerText = "Invalid Email";
@@ -195,7 +195,7 @@ var validationLogin = e => {
         field.classList.remove("invalid")
         field.nextElementSibling.classList.remove("error");
         field.nextElementSibling.innerText = "";
-        //alert(fieldValue);
+        alert(fieldValue);
     }
 }
 emailsField.addEventListener("input", validationLogin);
@@ -245,57 +245,76 @@ var validationReppassword = e => {
 }
 reppasswordField.addEventListener("input", validationReppassword);
 //SUBMIT VALIDATION
-var submitBtn = document.querySelector("[type=submit]");
-submitBtn.addEventListener("click", (event) => {
-    event.preventDefault();
-    var nameValue = nameField.value.trim();
-    var lastNameValue = lastNameField.value.trim();
-    var dniValue = dniField.value.trim();
-    var phoneValue = phoneField.value.trim();
-    var addressValue = addressField.value.trim();
-    var cityValue = cityField.value.trim();
-    var zipCodeValue = zipCodeField.value.trim();
-    var emailsValue = emailsField.value.trim();
-    var passwordValue = passwordField.value.trim();
-    if (
-        nameValue &&
-        lastNameValue &&
-        dniValue &&
-        phoneValue &&
-        addressValue &&
-        cityValue &&
-        zipCodeValue &&
-        emailsValue &&
-        passwordValue
-    ) {
-        var message =
-            "Name: " +
-            nameValue +
-            "\n" +
-            "Last Name: " +
-            lastNameValue +
-            "\n" +
-            "DNI: " +
-            dniValue +
-            "\n" +
-            "Phone: " +
-            phoneValue +
-            "\n" +
-            "Address: " +
-            addressValue +
-            "\n" +
-            "City: " +
-            cityValue +
-            "Zip Code: " +
-            zipCodeValue +
-            "\n" +
-            "Email: " +
-            emailsValue +
-            "\n" +
-            "Password: " +
-            passwordValue;
-        alert(message);
-    } else {
-        alert("Please fill in all fields");
-    }
+var submitButton = document.querySelector('button[type="submit"]');
+submitButton.addEventListener('click', function(event) {
+  event.preventDefault();
+  var url =
+    "https://api-rest-server.vercel.app/signup?" +
+    "name=" +
+    nameField.value +
+    "&lastName=" +
+    lastNameField.value +
+    "&dni=" +
+    dniField.value +
+    "&phone=" +
+    phoneField.value +
+    "&address=" +
+    addressField.value +
+    "&zip=" +
+    zipCodeField.value +
+    "&city=" +
+    cityField.value +
+    "&email=" +
+    emailsField.value +
+    "&password=" +
+    passwordField.value +
+  event.preventDefault();
+  if (
+    validationLogin(emailsField.value) &&
+    validationName(nameField.value) &&
+    validationLastName(lastNameField.value) &&
+    validationDni(dniField.value) &&
+    validationPhone(phoneField.value) &&
+    validationAddress(addressField.value) &&
+    validationCity(cityField.value) &&
+    validationZipCode(zipCodeField.value) &&
+    validationPassword(passwordField.value)
+  ) {
+    fetch(url)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        if (data.hasOwnProperty("data")) {
+          var keys = Object.keys(data.data);
+          for (var i = 1; i < keys.length; i++) {
+            var key = keys[i];
+            if (data.data.hasOwnProperty(key)) {
+              var value = data.data[key];
+              localStorage.setItem(key, value);
+              alert(key + ": " + value);
+            }
+          }
+        } else if (data.hasOwnProperty("errors")) {
+          for (var i = 0; i < data.errors.length; i++) {
+            var error = data.errors[i];
+            if (error.hasOwnProperty("msg")) {
+              alert(error.msg);
+            }
+          }
+        }
+      });
+  }
 });
+document.addEventListener("DOMContentLoaded", ReloadInfo());
+function ReloadInfo() {
+  nameField.value = localStorage.getItem("name");
+  lastNameField.value = localStorage.getItem("lastName");
+  addressField.value = localStorage.getItem("address");
+  zipCodeField.value = localStorage.getItem("zip");
+  phoneField.value = localStorage.getItem("phone");
+  dniField.value = localStorage.getItem("dni");
+  cityField.value = localStorage.getItem("city");
+  emailsField.value = localStorage.getItem("email");
+  passwordField.value = localStorage.getItem("password");
+}

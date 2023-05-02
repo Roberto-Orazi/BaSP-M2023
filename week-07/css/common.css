@@ -61,3 +61,17 @@ label{
 .invalid{
   border: solid 1px red;
 }
+form span{
+  color: rgb(255, 0, 0);
+  position:fixed;
+  margin-top: 65px !important;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form div{
+  display: flex;
+  flex-direction: column;
+}

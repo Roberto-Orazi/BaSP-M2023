@@ -1,4 +1,4 @@
-//EMAIL
+// EMAIL
 var emailInput = document.getElementById('mail');
 var invalidEmail = document.getElementById('invalid-mail');
 function emailValidation(email) {
@@ -14,7 +14,7 @@ emailInput.addEventListener('blur', function() {
         invalidEmail.classList.add('hide-class');
     }
 });
-//PASSWORD
+// PASSWORD
 var passwordInput = document.getElementById('password2');
 var invalidPassword = document.getElementById('invalid-password2');
 function passwordValidation(password) {
@@ -43,7 +43,7 @@ passwordInput.addEventListener('blur', function() {
         invalidPassword.classList.add('hide-class');
     }
 });
-//VALIDATIONS
+// VALIDATIONS
 function fieldsValidation(email, password) {
     if (!emailValidation(email)) {
         emailInput.classList.add('login-item-incorrect');
@@ -60,13 +60,29 @@ function fieldsValidation(email, password) {
         invalidPassword.classList.add('hide-class');
     }
 }
-//SUBMIT
+// SUBMIT + FETCH
 var submitButton = document.querySelector('button[type="submit"]');
 submitButton.addEventListener('click', function(e) {
     e.preventDefault();
-    if (passwordValidation(passwordInput.value) && emailValidation(emailInput.value)) {
-        alert('Email: ' + emailInput.value + '\nPassword: ' + passwordInput.value);
+    var email = emailInput.value;
+    var password = passwordInput.value;
+    var url = `https://api-rest-server.vercel.app/login?email=${email}&password=${password}`;
+    if (passwordValidation(password) && emailValidation(email)) {
+        fetch(url)
+            .then(function(response) {
+                return response.json();
+                })
+            .then(function(data) {
+                if(data.success){
+                alert(`You are logged. Data Reicive:\n${JSON.stringify(data)}`);
+                }else if(!data.success){
+                throw new Error(JSON.stringify(data))
+                }
+            })
+            .catch(function(error) {
+                alert(`It was an error. Error: ${error}`);
+            });
     } else {
-        fieldsValidation(emailInput.value, passwordInput.value);
+        fieldsValidation(email, password);
     }
 });
